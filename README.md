@@ -18,12 +18,12 @@ SDG was first written for and adopted by the [tolstoy.life](https://tolstoy.life
 
 ## Reusing SDG in your own project
 
-Anyone may adopt SDG by copying the `LICENSE` file from this repository into the root of their own project. The name "SDG" and the wrapper text may be reused as-is. If you modify the wrapper text in ways that change its meaning, you must not call your modified version "SDG" or any close variant — see [docs/trademark.md](docs/trademark.md). The operative CC0 1.0 text in `LICENSE` must remain verbatim; do not edit it.
+Anyone may adopt SDG by copying the `LICENSE` file from this repository into the root of their own project. The name "SDG" and the wrapper text may be reused as-is. If you modify the wrapper text in ways that change its meaning, you must not call your modified version "SDG" or any close variant — see [docs/trademark.md](docs/trademark.md). The operative CC0 1.0 text in `LICENSE` must remain verbatim; do not edit it. If you'd like to propose changes to the wrapper text, docs, or examples, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## How to apply SDG
 
-See [HOW-TO-APPLY.md](HOW-TO-APPLY.md) for copy-paste recipes covering whole repositories, single source files, books and EPUBs, websites, and datasets.
+See [HOW-TO-APPLY.md](HOW-TO-APPLY.md) for copy-paste recipes covering whole repositories, single source files, books and EPUBs, websites, and datasets. Common questions are answered in [FAQ.md](FAQ.md).
 
 ## License of this project itself
 
-The files of the SDG project — this README, the documentation in `docs/`, the examples in `examples/`, the FAQ, the contributing guide, and the changelog — are themselves dedicated under SDG. `SPDX-License-Identifier: CC0-1.0`.
+The files of the SDG project — this README, the documentation in `docs/`, the examples in `examples/`, the [FAQ](FAQ.md), the [contributing guide](CONTRIBUTING.md), and the [changelog](CHANGELOG.md) — are themselves dedicated under SDG. `SPDX-License-Identifier: CC0-1.0`.

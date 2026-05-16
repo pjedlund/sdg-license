@@ -22,7 +22,7 @@ If the CC0 1.0 text inside `LICENSE` were edited, the result would no longer be 
 
 ## Forks and modifications of the wrapper
 
-The narrative paragraphs around the CC0 text — what this project calls "the wrapper" — are themselves dedicated under SDG (CC0 1.0). Anyone may copy, modify, and republish them. However, if you modify the wrapper in ways that change its meaning, do not call your modified version "SDG" or any close variant. Adopt a different name. The SDG project does not hold a registered trademark, but reusing the name for a materially different document would confuse downstream adopters and is asked against by this project.
+The narrative paragraphs around the CC0 text — what this project calls "the wrapper" — are themselves dedicated under SDG (CC0 1.0). Anyone may copy, modify, and republish them. However, if you modify the wrapper in ways that change its meaning, do not call your modified version "SDG" or any close variant. Adopt a different name. The SDG project does not hold a registered trademark, but reusing the name for a materially different document would confuse downstream adopters and is discouraged by this project.
 
 Modifications that preserve meaning — fixing a typo, translating into another language while keeping the substance, adjusting punctuation — may be called SDG; submit them as pull requests against the canonical project instead of forking.
 
