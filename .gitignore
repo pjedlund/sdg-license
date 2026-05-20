@@ -1,3 +1,4 @@
 # Internal working notes, drafts, and material not intended for the public repo.
 # Anything dropped under _generated/ stays out of git.
 _generated/
+.omc
