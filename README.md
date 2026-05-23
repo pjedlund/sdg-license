@@ -1,5 +1,12 @@
 # Soli Deo Gloria — A Public Domain Dedication
 
+<<<<<<< HEAD
+
+![Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.](logo/SDG-logo.webp "Official Soli Deo Gloria logo")
+=======
+SDG-logo.webp
+>>>>>>> main
+
 SDG is a narrative wrapper over the Creative Commons CC0 1.0 Universal Public Domain Dedication. The operative legal text of any SDG-dedicated work is CC0 1.0 verbatim. SDG adds two short paragraphs of framing — drawn from the tradition of Johann Sebastian Bach and Leo Tolstoy of giving work freely rather than holding it — but it does not change CC0's legal effect. SDG is the name of this wrapper project, not a license identifier; files dedicated under SDG remain `SPDX-License-Identifier: CC0-1.0`.
 
 ## Who SDG is for

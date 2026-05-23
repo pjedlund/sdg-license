@@ -2,3 +2,17 @@
 # Anything dropped under _generated/ stays out of git.
 _generated/
 .omc
+
+# Editor configs mm
+.nova
+.DS_Store
+_originals
+_resources
+_backup
+
+# Project notes (kept locally, not in repo)
+AGENTS.md
+CLAUDE.md
+DESIGN.md
+LOG.md
+TODO.md
