@@ -1,6 +1,8 @@
 # The name
 
-The dedication makes three historical claims: that the letters S.D.G. come from Bach's manuscripts, that the words were a common formula among churchmen of his time, and that Tolstoy renounced copyright on his later writings. This page carries the references for those claims, and is honest about which parts are firm and which are not.
+The dedication itself makes no historical claims. It states a conviction and gets out of the way, so that it can be adopted by anyone who holds that the world was given rather than earned, whatever tradition they hold it in.
+
+The name is a different matter. "Soli Deo Gloria" is a specific phrase with a specific history, and this page carries it — where the letters come from, how they were used, and why a project open to anyone still bears a Latin formula out of the Reformation. It is honest about which parts are firm and which are not.
 
 ## What Bach did
 
@@ -24,6 +26,20 @@ Because a formula used carelessly by many people is not thereby spoiled, and bec
 
 This is also Tolstoy's own method. He did not abandon "God," "gospel," or "the kingdom of God" because the church had them in its mouth; he argued they had been taken and took them back. *The Kingdom of God Is Within You* is a gospel phrase reclaimed against the institution claiming to own it. Naming a copyright renunciation *Soli Deo Gloria* is the same move.
 
+## Older and wider than the name
+
+The conviction the dedication states does not originate with the phrase that names it, and is not confined to the tradition the phrase comes from. The claim that the world belongs to the one who made it, and that human ownership is therefore provisional at best, is held widely and has been stated sharply in places with no connection to Leipzig or Wittenberg.
+
+Two instances, offered as illustration rather than as proof that anyone agrees with this project:
+
+Leviticus 25:23 makes divine ownership a limit on property in so many words — "The land shall not be sold in perpetuity, for the land is mine; for you are strangers and sojourners with me." The point is not that possession is wrong but that it is tenancy. Psalm 24:1 states the general case.
+
+The Isha Upanishad opens with the same thought and draws the same conclusion. *Īśāvāsyam idaṁ sarvam* — all this is enveloped by the Lord — and then, immediately: renounce, and so enjoy; do not covet, for whose is wealth? That a text from another language and another millennium moves from divine ownership to non-covetousness in a single verse is worth knowing about.
+
+Similar reasoning runs through Islamic teaching on trusteeship, where what a person holds is *amanah*, held in trust rather than owned outright, and through other traditions besides.
+
+This project does not speak for any of them, and naming a parallel is not claiming an endorsement. The point is narrower: the conviction in the dedication is not the private property of the tradition that gave it its Latin name — which would be a poor irony for a dedication about not owning things.
+
 ## Tolstoy
 
 Tolstoy was declared fallen away from the Orthodox Church by edict of the Holy Synod in February 1901. The stated grounds were that he had produced his own versions of the Gospels with the miracles removed, keeping the moral teaching, and had written *Critique of Dogmatic Theology* against the church's practices. He was not condemned for unbelief but for holding that the church had replaced Jesus's instructions with something else.
@@ -41,5 +57,7 @@ Note that several standard references were unreachable when this page was compil
 - [Thomas Braatz: Laus Deo](https://www.bach-cantatas.com/Articles/Laus-Deo[Braatz].htm)
 - [Ligonier: Johann Sebastian Bach — J.J.](https://learn.ligonier.org/podcasts/5-minutes-in-church-history-with-stephen-nichols/johann-sebastian-bach-jj)
 - [Decree of Excommunication of Leo Tolstoy (Wikisource)](https://en.wikisource.org/wiki/Decree_of_Excommunication_of_Leo_Tolstoy)
+- [Leviticus 25:23, parallel translations](https://biblehub.com/leviticus/25-23.htm)
+- [Isha Upanishad, verse 1 — text, word meaning and commentary](https://shlokam.org/texts/ishavasya-1/)
 - [Tolstoy's Diaries, Volume II: 1895–1910, ed. R. F. Christian](https://tolstoyarchive.org/Non-fiction/files/Tolstoy's%20Diaries%202.pdf)
 - [Theopedia: Five Solas](https://theopedia.com/five-solas)

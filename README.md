@@ -2,15 +2,17 @@
 
 <img src="logo/SDG-logo.webp" width="100%" alt="Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.">
 
-> **Version 2.0.0-beta.2.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/main) branch and switch once 2.0.0 ships.
+> **Version 2.0.0-beta.3.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/main) branch and switch once 2.0.0 ships.
 
 All glory to God.
 
-Everything that exists was created by God. Nothing any of us makes is made from nothing: we work with what we were given, with hands and minds we did not make, in a world we did not build. To stamp our name on the result and call it property is to claim what was never ours to claim.
+God made everything that is. Nothing any of us makes is made from nothing: we work with what we were given, with hands and minds we did not make, in a world we did not build. What we call creating is arranging, and what we arrange was never ours. To put our name on the result and call it property is to claim what was never ours to claim.
 
 SDG says that plainly, and then does the legal work required to make the renunciation take effect. The law has no way to record "this was never mine," so SDG uses the nearest instrument it provides: an established public domain dedication, reproduced verbatim beneath the statement. The statement is the point. The legal text is the mechanism, and it is kept below the line where a mechanism belongs.
 
-The letters come from Bach's manuscripts, where they were one of the conventional formulas of a church trade. They are taken here in their strict sense: glory to God alone leaves none over for any institution, any office, or any author. [docs/the-name.md](docs/the-name.md) sets out the history and the sources.
+The letters come from Bach's manuscripts, where they were one of the conventional formulas of a church trade. They are taken here in their strict sense: glory to God alone leaves none over for any institution, any office, or any author.
+
+The dedication itself claims no tradition. It is written to be usable by anyone who holds that the world was given and not earned, by whatever name they know the One who gave it — the conviction is far older and wider than the Latin phrase that names this project. [docs/the-name.md](docs/the-name.md) carries the history of the name, the sources, and the reasoning.
 
 ## Choosing a base
 

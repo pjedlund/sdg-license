@@ -4,6 +4,20 @@ All notable changes to the SDG dedication statement and surrounding documentatio
 
 This project follows [Semantic Versioning](https://semver.org/) for the statement. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the statement or to recommended-usage guidance.
 
+## [2.0.0-beta.3] — 2026-07-26
+
+Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
+
+### Changed
+
+- The statement is rewritten to be usable by anyone who holds that the world was given rather than earned, whatever tradition they hold it in. It states the conviction and stops, rather than arguing for it from one tradition's history.
+- Bach and Tolstoy are no longer named in the statement. A dedication that asks an adopter to carry a Reformation formula's quarrel with the churches, or Tolstoy's excommunication, is not one a Jewish, Muslim, or Hindu adopter can sign without signing something else as well. The name still points at that history and `docs/the-name.md` still tells it; the operative document no longer requires it.
+- `README.md` states plainly that the dedication claims no tradition.
+
+### Added
+
+- `docs/the-name.md` gains a section on the conviction being older and wider than the phrase that names it, with Leviticus 25:23 on divine ownership as a limit on property, and the Isha Upanishad's first verse moving from divine ownership to non-covetousness in a single line. Both are offered as illustration, with an explicit note that naming a parallel is not claiming an endorsement.
+
 ## [2.0.0-beta.2] — 2026-07-26
 
 Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
