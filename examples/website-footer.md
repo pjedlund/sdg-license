@@ -1,29 +1,31 @@
 # Example: footer line for a website
 
-Pick the form that matches the rest of your footer's style. Both versions link to the SDG project for the dedication's full text.
+Pick the form that matches the rest of your footer's style. The examples use `CC0-1.0`; substitute `Unlicense` or `CC0-1.0 OR Unlicense` to match the variant you adopted.
 
 ## HTML
 
 ```html
-<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/sdg-license">SDG</a> (CC0 1.0). SPDX-License-Identifier: CC0-1.0.</p>
+<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/soli-deo-gloria-dedication">SDG</a> (CC0 1.0). SPDX-License-Identifier: CC0-1.0.</p>
 ```
 
 ## Markdown
 
 ```markdown
-This site is dedicated to the public domain under [SDG](https://github.com/pjedlund/sdg-license) (CC0 1.0). SPDX-License-Identifier: CC0-1.0.
+This site is dedicated to the public domain under [SDG](https://github.com/pjedlund/soli-deo-gloria-dedication) (CC0 1.0). SPDX-License-Identifier: CC0-1.0.
 ```
 
 ## Even shorter
 
-If you are tight on space, a one-line variant:
+If you are tight on space:
 
 ```html
-<p>Public domain under <a href="https://github.com/pjedlund/sdg-license">SDG</a>.</p>
+<p>Public domain under <a href="https://github.com/pjedlund/soli-deo-gloria-dedication">SDG</a>.</p>
 ```
 
-The shorter form omits the explicit SPDX identifier. Prefer the longer form if your site is likely to be archived, mirrored, or scanned by tooling that looks for the identifier.
+The shorter form omits the identifier. Prefer the longer form if your site is likely to be archived, mirrored, or scanned by tooling that looks for one.
 
 ## Linking convention
 
-When linking from a website footer, point at the SDG project URL rather than at the Creative Commons CC0 page directly. SDG identifies your dedication choice; CC0 is the operative layer that SDG references. Linking at SDG keeps the framing visible; linking at the CC0 page bypasses it.
+Point at the SDG project rather than directly at the CC0 or Unlicense page. SDG names your dedication; the base is the operative layer beneath it. Linking at SDG keeps the dedication visible, and a reader who wants the legal text will find it one click further in. Linking straight at the base skips past the part that says why.
+
+Whichever you link, also keep a `LICENSE` file at your site's repository root. Footers get lost when pages are scraped, mirrored, or converted; the `LICENSE` file survives.

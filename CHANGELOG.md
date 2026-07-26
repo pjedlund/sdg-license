@@ -1,8 +1,39 @@
 # Changelog
 
-All notable changes to the SDG wrapper narrative and surrounding documentation are recorded here. The operative legal text — CC0 1.0 — is immutable and is not versioned by SDG; if `LICENSE.cc0.txt` ever changes, the change can only be a re-fetch from the canonical Creative Commons source and is recorded as such.
+All notable changes to the SDG dedication statement and surrounding documentation are recorded here. The operative legal texts — CC0 1.0 and the Unlicense — are immutable and are not versioned by SDG; if `LICENSE.cc0.txt` or `LICENSE.unlicense.txt` ever changes, the change can only be a re-fetch from a canonical source and is recorded as such.
 
-This project follows [Semantic Versioning](https://semver.org/) for the wrapper narrative. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the wrapper or to recommended-usage guidance.
+This project follows [Semantic Versioning](https://semver.org/) for the statement. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the statement or to recommended-usage guidance.
+
+## [2.0.0-beta.1] — 2026-07-26
+
+Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
+
+### Added
+
+- Choice of legal base. Three variants in `variants/`, sharing one statement and differing only in the operative text beneath it: `SDG-CC0.txt` (`CC0-1.0`), `SDG-Unlicense.txt` (`Unlicense`), and `SDG-Either.txt` (`CC0-1.0 OR Unlicense`).
+- `LICENSE.unlicense.txt`, the Unlicense verbatim, taken from the SPDX license-list-data canonical text and re-wrapped to match the file style of `LICENSE.cc0.txt`.
+- `docs/choosing-a-base.md`, replacing `docs/why-cc0.md`. Sets out the content-versus-code split: CC0 carries a moral-rights fallback, database rights, and a construction clause for jurisdictions that do not recognise waiver; the Unlicense is OSI-approved and carries no express patent disclaimer.
+
+### Changed
+
+- The dedication now leads with the statement and places the operative legal text below a rule, under an `OPERATIVE LEGAL TEXT` heading. The statement is the document; the legal text is the mechanism.
+- The statement is rewritten in declarative voice throughout and grants nothing. Only the base text is operative.
+- `LICENSE` is now the `SDG-Either` variant, so this project uses the same default it recommends.
+- The project's own SPDX identifier is now `CC0-1.0 OR Unlicense`.
+- `docs/moral-rights.md` notes that the Unlicense has no fallback layer, and that moral rights are not something a downstream recipient can clear by relicensing.
+- `docs/patents-and-code.md` covers both bases, and explains why the freedom to relicense an SDG work does not address patent exposure — relicensing governs the recipient's copyright position, not the author's patent claim.
+- `README.md` leads with the dedication rather than with a description of the wrapper.
+- Repository URLs in `HOW-TO-APPLY.md` and `examples/` corrected from `pjedlund/sdg-license` to `pjedlund/soli-deo-gloria-dedication`.
+
+### Removed
+
+- The "Who SDG is not for" section of `README.md`. The code half is now answered by choosing a base rather than by a warning; the moral-rights half lives in `docs/moral-rights.md`, where it belongs.
+- The trailing plain-language no-warranty paragraph. Both bases already disclaim warranties, so it added length without effect.
+- The recommendation to tag files `CC0-1.0 AND LicenseRef-SDG`. SDG imposes no obligations, so `AND` asserts a conjunction that does not exist and gives compliance tooling an unknown component to flag. Use the base identifier alone. `docs/trademark.md` covers the alternatives for anyone who needs the statement tracked.
+
+### Fixed
+
+- The 1.0.0 statement contained a second operative grant: a waiver and a fallback licence that omitted CC0's non-transferable, non-sublicensable, and non-exclusive limits, and so read broader than the CC0 text it introduced. The two paragraphs also disagreed with each other on scope, one covering "copyright and related or neighbouring rights" and the other only "all rights under copyright". Both are gone.
 
 ## [1.0.0] — 2026-05-16
 
