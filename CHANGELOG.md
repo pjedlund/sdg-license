@@ -4,6 +4,24 @@ All notable changes to the SDG dedication statement and surrounding documentatio
 
 This project follows [Semantic Versioning](https://semver.org/) for the statement. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the statement or to recommended-usage guidance.
 
+## [2.0.0-beta.2] — 2026-07-26
+
+Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
+
+### Changed
+
+- The statement no longer presents Bach and Tolstoy as equal predecessors. Bach is named as the source of the letters; Tolstoy, who actually renounced copyright, is named as the precedent the dedication follows. Bach wrote S.D.G. at the end of contracted work for a church that employed him, and renounced nothing by doing so.
+- The statement claims the words in their strict sense — glory to God alone leaving none over for any institution, office, or author — rather than resting on an interpretation of what Bach personally believed by writing them.
+
+### Added
+
+- `docs/the-name.md`, carrying the references for the historical claims the statement makes. Records that S.D.G. was a common formula rather than Bach's invention (Handel, Buxtehude, Graupner used it; Haydn used *Laus Deo*), sets out the reclaiming argument, and gives the Orthodox Synod's 1901 grounds against Tolstoy.
+
+### Fixed
+
+- The 1.0.0 and beta.1 statements asserted that Bach wrote S.D.G. "to say that the music was not his." That is an interpretive claim about his convictions, unsupported by the sources this project could reach, and weaker than it appears once the formula is known to have been conventional. Removed.
+- `docs/the-name.md` records two claims this project has *not* verified: that Bach inscribed S.D.G. on the *Coffee Cantata*, and the specific mechanism by which Tolstoy made his renunciation public. Both were being repeated without a source.
+
 ## [2.0.0-beta.1] — 2026-07-26
 
 Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
