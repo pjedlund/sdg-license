@@ -4,6 +4,16 @@ All notable changes to the SDG dedication statement and surrounding documentatio
 
 This project follows [Semantic Versioning](https://semver.org/) for the statement. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the statement or to recommended-usage guidance.
 
+## [Unreleased]
+
+Tooling only. The dedication statement is unchanged from 2.0.0-beta.4, and the generated files are byte-identical to what that release shipped.
+
+### Added
+
+- `statement.txt`, the dedication statement as a source file. It was previously carried only inside the four generated files, with no canonical copy.
+- `make-variants.sh`, which regenerates `variants/` and `LICENSE` from `statement.txt` and the two legal texts. `--check` verifies the generated files are current and exits non-zero if not. The statement lives in four files, and hand-editing one desynced the other three silently.
+- The two legal texts are pinned by sha256 in the build script. CONTRIBUTING already declared them immutable; now an accidental edit fails the build instead of propagating into the variants. A deliberate re-fetch updates the pin in the same commit, which makes the pin diff part of the evidence CONTRIBUTING asks for.
+
 ## [2.0.0-beta.4] — 2026-07-27
 
 Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.

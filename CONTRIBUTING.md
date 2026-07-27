@@ -8,9 +8,23 @@ The documentation in `docs/` and `FAQ.md`, the recipes in `HOW-TO-APPLY.md`, and
 
 Patch changes — typos, broken links, punctuation, formatting — are accepted readily. Additive changes — a new docs page, a new FAQ entry, an example for a format not yet covered — are accepted when they fill a gap an adopter actually ran into. Changes to the statement or to recommended-usage guidance need an issue first.
 
+## Generated files
+
+`variants/SDG-CC0.txt`, `variants/SDG-Unlicense.txt`, `variants/SDG-Either.txt`, and `LICENSE` are generated. Do not edit them by hand — the statement lives in all four, and editing one desyncs the rest silently.
+
+The sources are `statement.txt`, `LICENSE.cc0.txt`, and `LICENSE.unlicense.txt`. After changing any of them:
+
+```sh
+./make-variants.sh
+```
+
+`./make-variants.sh --check` verifies the generated files are current without writing anything, and exits non-zero if they are stale. Run it before opening a pull request; a diff that touches `variants/` without touching `statement.txt` is a sign something was edited in the wrong place.
+
 ## What is frozen
 
 **The legal texts.** `LICENSE.cc0.txt`, `LICENSE.unlicense.txt`, and the copies embedded in `variants/` are immutable. The only valid change is a re-fetch from a canonical source — [Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt) for CC0, [unlicense.org](https://unlicense.org/UNLICENSE) or [SPDX license-list-data](https://github.com/spdx/license-list-data) for the Unlicense — and only if a corrigendum is published upstream or a byte has been corrupted. Such a re-fetch is its own pull request and must carry evidence that the change is faithful: a fetch transcript with a checksum, and a diff against the source.
+
+Both files are pinned by sha256 inside `make-variants.sh`, so an accidental edit fails the build rather than propagating into the variants. A deliberate re-fetch updates the pin in the same commit, and that diff becomes part of the evidence.
 
 **Released statement text.** Once a version of the statement ships, its bytes do not change. Adopters copy the statement into their own `LICENSE` files, so if it drifts, "SDG" names different documents in different projects and the label stops meaning anything. Revisions ship as a new version — `SDG 3.0` — alongside the old one, not as edits to it. Typo fixes that do not alter meaning are the only exception, and they ship as a patch release.
 
