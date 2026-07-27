@@ -2,7 +2,7 @@
 
 <img src="logo/SDG-logo.webp" width="100%" alt="Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.">
 
-> **Version 2.0.0-beta.3.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/main) branch and switch once 2.0.0 ships.
+> **Version 2.0.0-beta.4.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/main) branch and switch once 2.0.0 ships.
 
 All glory to God.
 
@@ -10,9 +10,7 @@ God made everything that is. Nothing any of us makes is made from nothing: we wo
 
 SDG says that plainly, and then does the legal work required to make the renunciation take effect. The law has no way to record "this was never mine," so SDG uses the nearest instrument it provides: an established public domain dedication, reproduced verbatim beneath the statement. The statement is the point. The legal text is the mechanism, and it is kept below the line where a mechanism belongs.
 
-The letters come from Bach's manuscripts, where they were one of the conventional formulas of a church trade. They are taken here in their strict sense: glory to God alone leaves none over for any institution, any office, or any author.
-
-The dedication itself claims no tradition. It is written to be usable by anyone who holds that the world was given and not earned, by whatever name they know the One who gave it — the conviction is far older and wider than the Latin phrase that names this project. [docs/the-name.md](docs/the-name.md) carries the history of the name, the sources, and the reasoning.
+The dedication claims no tradition. It is written to be usable by anyone who holds that the world was given and not earned, by whatever name they know the One who gave it — the conviction is far older and wider than the Latin phrase that names this project.
 
 ## Choosing a base
 
@@ -31,6 +29,16 @@ If you would rather not decide, use `SDG-Either.txt`. Declining to impose one le
 ## How to apply SDG
 
 See [HOW-TO-APPLY.md](HOW-TO-APPLY.md) for copy-paste recipes covering whole repositories, single source files, books and EPUBs, websites, and datasets. Common questions are answered in [FAQ.md](FAQ.md).
+
+## Bach and Tolstoy
+
+The letters at the head of the dedication are Bach's. He wrote **S.D.G.** at the end of a finished score, having opened it with **J.J.** — *Jesu Juva*, "Jesus help" — so that the work was bracketed by a prayer at the start and an ascription at the end. He was not doing anything unusual: the formula was common among churchmen of his time, and Handel, Buxtehude and Graupner all used it, while Haydn closed his scores with *Laus Deo*. That it was conventional does not make it empty. It means an entire working culture had a habit of not claiming the credit, and the habit outlived the people who kept it carelessly.
+
+Leo Tolstoy is the reason this project exists rather than merely the reason it has a name. Bach renounced nothing; he was a salaried church employee, paid by commission, and the inscription cost him no property. Tolstoy actually did the thing. He renounced copyright on his later writings so they would belong to whoever needed them, and it cost him a decades-long fight inside his own family. The Orthodox Church declared him fallen away in 1901, on the grounds that he had rewritten the Gospels to keep the moral teaching and drop the miracles, and had taken the church's dogmatic theology apart in print.
+
+The words are taken here in their strict sense: glory to God alone leaves none over for any institution, any office, or any author. That reading lives in the words themselves and does not depend on what Bach or anyone else meant by them — which is also Tolstoy's own method, since he did not surrender "gospel" or "the kingdom of God" to the church but argued they had been taken and took them back.
+
+The dedication names neither man. It states its conviction and stops, so it can be adopted by anyone who holds that the world was given rather than earned, whatever tradition they hold it in. [docs/the-name.md](docs/the-name.md) carries the sources and is explicit about which claims are firm and which are not.
 
 ## Origin
 

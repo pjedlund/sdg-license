@@ -4,6 +4,14 @@
 
 You can, and for many adopters that is the right answer. SDG exists for people who want the dedication to say *why* — that the work was never theirs to own — rather than opening with a legal instrument. The legal effect is identical, because the operative text is CC0 1.0 or the Unlicense verbatim. If you do not want the statement, use the base directly.
 
+## Can I use CC0 or the Unlicense without the SDG dedication?
+
+Yes, and nothing is lost by doing so. `LICENSE.cc0.txt` and `LICENSE.unlicense.txt` in this repository are the two instruments on their own, with no SDG text in them. Copy either into your project as `LICENSE` and you have a complete, conventional public domain dedication. You can equally take them from [Creative Commons](https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt) or [unlicense.org](https://unlicense.org/UNLICENSE) and never touch this project at all.
+
+This works because the statement grants nothing. It imposes no terms, so removing it changes the legal position not at all — the SPDX identifier is the same either way. A wrapper that added obligations could not be stripped out cleanly; this one can, by design.
+
+Use the bases alone if the dedication is not yours to make: if you do not share the conviction, if you are publishing on behalf of an organisation that should not be made to profess one, or if you simply want the legal instrument without a preface.
+
 ## Which base should I choose?
 
 Content takes `SDG-CC0`. Code takes `SDG-Unlicense`. Anything mixed, or if you would rather not decide for the recipient, takes `SDG-Either`. [docs/choosing-a-base.md](docs/choosing-a-base.md) explains why the split falls where it does.

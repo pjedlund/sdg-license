@@ -4,6 +4,19 @@ All notable changes to the SDG dedication statement and surrounding documentatio
 
 This project follows [Semantic Versioning](https://semver.org/) for the statement. Patch changes are typo and clarification fixes. Minor changes are additive docs and examples. Major changes are substantive edits to the statement or to recommended-usage guidance.
 
+## [2.0.0-beta.4] — 2026-07-27
+
+Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
+
+### Changed
+
+- The statement's register is humbler without weakening the claim. The conviction still stands in full — that to put our name on what we arranged and call it property is to claim what was never ours — but the author's renunciation is now offered "not as a reproach to anyone who holds otherwise, nor as a claim to have seen the matter more clearly than they have." The humility is in not passing sentence on the reader, not in doubting the claim.
+- `README.md` gains a "Bach and Tolstoy" section. The statement stays tradition-neutral; the lineage is told in full further down, including that Bach renounced nothing while Tolstoy renounced copyright and was declared fallen away by the Orthodox Church in 1901.
+
+### Added
+
+- FAQ entry: the CC0 and Unlicense texts can be used with no SDG dedication at all. `LICENSE.cc0.txt` and `LICENSE.unlicense.txt` are the bare instruments, and stripping the statement changes the legal position not at all — which is a property of the statement granting nothing, and would not hold for a wrapper that added terms.
+
 ## [2.0.0-beta.3] — 2026-07-26
 
 Pre-release for review. The statement text is not yet frozen and may change before 2.0.0.
