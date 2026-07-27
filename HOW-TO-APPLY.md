@@ -63,7 +63,7 @@ For a longer version suitable for print colophons or EPUB back matter, see [exam
 Add a line in the footer naming SDG and linking to your local `LICENSE` page or to the SDG project:
 
 ```html
-<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/soli-deo-gloria-dedication">SDG</a>. SPDX-License-Identifier: CC0-1.0.</p>
+<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/sdg-license">SDG</a>. SPDX-License-Identifier: CC0-1.0.</p>
 ```
 
 For the Markdown variant and notes on linking conventions, see [examples/website-footer.md](examples/website-footer.md).

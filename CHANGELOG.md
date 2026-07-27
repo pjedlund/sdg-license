@@ -6,7 +6,11 @@ This project follows [Semantic Versioning](https://semver.org/) for the statemen
 
 ## [Unreleased]
 
-Tooling only. The dedication statement is unchanged from 2.0.0-beta.4, and the generated files are byte-identical to what that release shipped.
+The dedication statement is unchanged from 2.0.0-beta.4, and the generated files are byte-identical to what that release shipped.
+
+### Changed
+
+- Repository URLs now point at `pjedlund/sdg-license`, reversing the correction made in 2.0.0-beta.1. That earlier change was right at the time — `sdg-license` did not resolve — but the project is being renamed to it, so the short name becomes canonical. GitHub redirects the old name, so links published in the interim continue to work. The beta.1 changelog entry is left as written, since it records what was true then.
 
 ### Added
 

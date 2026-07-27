@@ -5,13 +5,13 @@ Pick the form that matches the rest of your footer's style. The examples use `CC
 ## HTML
 
 ```html
-<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/soli-deo-gloria-dedication">SDG</a> (CC0 1.0). SPDX-License-Identifier: CC0-1.0.</p>
+<p>This site is dedicated to the public domain under <a href="https://github.com/pjedlund/sdg-license">SDG</a> (CC0 1.0). SPDX-License-Identifier: CC0-1.0.</p>
 ```
 
 ## Markdown
 
 ```markdown
-This site is dedicated to the public domain under [SDG](https://github.com/pjedlund/soli-deo-gloria-dedication) (CC0 1.0). SPDX-License-Identifier: CC0-1.0.
+This site is dedicated to the public domain under [SDG](https://github.com/pjedlund/sdg-license) (CC0 1.0). SPDX-License-Identifier: CC0-1.0.
 ```
 
 ## Even shorter
@@ -19,7 +19,7 @@ This site is dedicated to the public domain under [SDG](https://github.com/pjedl
 If you are tight on space:
 
 ```html
-<p>Public domain under <a href="https://github.com/pjedlund/soli-deo-gloria-dedication">SDG</a>.</p>
+<p>Public domain under <a href="https://github.com/pjedlund/sdg-license">SDG</a>.</p>
 ```
 
 The shorter form omits the identifier. Prefer the longer form if your site is likely to be archived, mirrored, or scanned by tooling that looks for one.

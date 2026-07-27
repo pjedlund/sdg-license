@@ -7,7 +7,7 @@ Pick a variant first — see [choosing-a-base.md](../docs/choosing-a-base.md). T
 Copy your chosen variant verbatim into your project root as `LICENSE`:
 
 ```text
-cp path/to/soli-deo-gloria-dedication/variants/SDG-Either.txt /path/to/your-project/LICENSE
+cp path/to/sdg-license/variants/SDG-Either.txt /path/to/your-project/LICENSE
 ```
 
 This is the recommended form. The dedication is then complete inside your own repository, regardless of whether the SDG project remains hosted at the URL you currently know.
@@ -21,7 +21,7 @@ This work is dedicated to the worldwide public domain under the
 Soli Deo Gloria (SDG) Dedication. The operative legal text is the
 Creative Commons CC0 1.0 Universal Public Domain Dedication, or
 the Unlicense, at your option. See
-https://github.com/pjedlund/soli-deo-gloria-dedication
+https://github.com/pjedlund/sdg-license
 for the full text.
 
 SPDX-License-Identifier: CC0-1.0 OR Unlicense
