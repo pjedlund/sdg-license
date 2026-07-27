@@ -6,7 +6,11 @@ This project follows [Semantic Versioning](https://semver.org/) for the statemen
 
 ## [Unreleased]
 
-Tooling only. The dedication statement is unchanged from 2.0.0-beta.4, and the generated files are byte-identical to what that release shipped.
+Tooling and docs only. The dedication statement is unchanged from 2.0.0-beta.4, and the generated files are byte-identical to what that release shipped.
+
+### Changed
+
+- `docs/choosing-a-base.md` and `docs/patents-and-code.md` no longer hedge on Fedora's position. Read from [fedora-license-data](https://forge.fedoraproject.org/legal/fedora-license-data) on 27 July 2026: `Unlicense`, `0BSD` and `MIT-0` are each `allowed`, and `CC0-1.0` is `allowed-content`. The two "not verified" caveats are replaced by the fact and its source.
 
 ### Added
 

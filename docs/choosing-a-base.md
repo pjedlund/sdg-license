@@ -22,7 +22,7 @@ The consequence is concrete. The Open Source Initiative has never approved CC0; 
 
 ## The Unlicense's advantage
 
-The Unlicense contains no patent clause at all. It neither grants patent rights nor reserves them, and its blanket permission to "copy, modify, publish, use, compile, sell, or distribute this software... for any purpose" is sometimes read as implying whatever permission its author could give. That difference is enough to have produced a different institutional outcome: the [OSI approved the Unlicense in June 2020](https://opensource.org/license/unlicense), while acknowledging the drafting is poor.
+The Unlicense contains no patent clause at all. It neither grants patent rights nor reserves them, and its blanket permission to "copy, modify, publish, use, compile, sell, or distribute this software... for any purpose" is sometimes read as implying whatever permission its author could give. That difference is enough to have produced a different institutional outcome: the [OSI approved the Unlicense in June 2020](https://opensource.org/license/unlicense), while acknowledging the drafting is poor. Fedora lists the Unlicense as `allowed` outright, where CC0 is `allowed-content` — permitted for content, not for code.
 
 Be careful about what this does and does not buy you. Absence of a disclaimer is not an express grant. An author who holds a patent reading on their own Unlicensed code has not licensed it to you. The Unlicense removes an obstacle that CC0 puts in the way of code; it does not solve the patent problem. See [patents-and-code.md](patents-and-code.md) for what does.
 
@@ -54,7 +54,9 @@ The [WTFPL](https://spdx.org/licenses/WTFPL.html) is a non-serious licence, unsu
 
 ## A note on verification
 
-The OSI's approval of the Unlicense, CC0's absence from the OSI list, and Fedora's 2022 decision on CC0 are all documented at the links below. Fedora's current status line for the Unlicense specifically has not been verified against [Fedora's allowed-licenses list](https://docs.fedoraproject.org/en-US/legal/allowed-licenses/); confirm it there before relying on it.
+The OSI's approval of the Unlicense, CC0's absence from the OSI list, and Fedora's 2022 decision on CC0 are all documented at the links below.
+
+Every Fedora status quoted here was read on 27 July 2026 from the `data/` files in [fedora-license-data](https://forge.fedoraproject.org/legal/fedora-license-data), the source the published allowed-licenses list is generated from: `Unlicense`, `0BSD` and `MIT-0` are each `status = [ "allowed" ]`, and `CC0-1.0` is `status = [ "allowed-content" ]`.
 
 ## References
 
@@ -63,6 +65,7 @@ The OSI's approval of the Unlicense, CC0's absence from the OSI list, and Fedora
 - [OSI: The Unlicense](https://opensource.org/license/unlicense)
 - [LWN: Fedora to disallow CC0-licensed code](https://lwn.net/Articles/902410/)
 - [Fedora: Allowed Licenses](https://docs.fedoraproject.org/en-US/legal/allowed-licenses/)
+- [fedora-license-data](https://forge.fedoraproject.org/legal/fedora-license-data) — the source data behind that list
 - [SPDX: CC0-1.0](https://spdx.org/licenses/CC0-1.0.html)
 - [SPDX: Unlicense](https://spdx.org/licenses/Unlicense.html)
 - [SPDX: 0BSD](https://spdx.org/licenses/0BSD.html)

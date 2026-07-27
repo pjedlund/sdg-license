@@ -24,7 +24,7 @@ But silence is not a grant. An author who holds a patent reading on their own Un
 
 In July 2022 the Fedora Project announced it would no longer accept new packages licensed solely under CC0 for code, on the Fedora Legal team's assessment that the missing patent grant disqualifies CC0 as a licence for source code. Existing packages were grandfathered; the policy applies going forward. CC0 remains allowed for content such as artwork. See [LWN's report](https://lwn.net/Articles/902410/) and the current [Fedora: Allowed Licenses](https://docs.fedoraproject.org/en-US/legal/allowed-licenses/) documentation.
 
-Fedora's current status line for the Unlicense has not been independently verified for this document. Check the allowed-licenses list before relying on it.
+Fedora's own [fedora-license-data](https://forge.fedoraproject.org/legal/fedora-license-data), read on 27 July 2026, bears that out: `Unlicense` carries `status = [ "allowed" ]` while `CC0-1.0` carries `status = [ "allowed-content" ]`.
 
 ## What to use when patents actually matter
 

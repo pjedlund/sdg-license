@@ -46,6 +46,13 @@ done
 # with evidence. Pinning them here makes an accidental edit fail loudly. A
 # deliberate re-fetch updates these lines in the same commit, and the diff
 # is then part of the evidence.
+#
+# LICENSE.unlicense.txt was taken from the SPDX license-list-data text. On
+# 27 July 2026 it was diffed against unlicense.org's own UNLICENSE and found
+# word-identical, with one difference: the closing reference reads
+# <http://unlicense.org/> in the SPDX text and <https://unlicense.org/> on
+# unlicense.org. SPDX is the authority for the identifier this project uses,
+# so the file follows SPDX and the pin below stands.
 CC0_SHA256="a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
 UNLICENSE_SHA256="7e12e5df4bae12cb21581ba157ced20e1986a0508dd10d0e8a4ab9a4cf94e85c"
 
