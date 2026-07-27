@@ -2,7 +2,7 @@
 
 <img src="logo/SDG-logo.webp" width="100%" alt="Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.">
 
-> **Version 2.0.0-beta.4.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/sdg-license/tree/main) branch and switch once 2.0.0 ships.
+> **Version 2.0.0-beta.4.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`main`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/main) branch and switch once 2.0.0 ships.
 
 All glory to God.
 
