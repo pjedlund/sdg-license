@@ -83,6 +83,20 @@ check_pinned "$UNLICENSE" "$UNLICENSE_SHA256"
 WORK="$(mktemp -d)"
 trap 'rm -rf "$WORK"' EXIT
 
+# statement.txt holds one line per paragraph so the dedication can be edited
+# as prose, without rewrapping by hand every time a word changes. The
+# published files want a hard wrap, so it happens here instead.
+#
+# fold counts bytes, not characters, so a line carrying the em dash wraps a
+# couple of columns short of $WRAP. That is cosmetic, and it is the same on
+# every platform, which is what matters when the result is committed. If a
+# fold somewhere ever did disagree, --check reports the file as STALE rather
+# than letting the difference through quietly.
+WRAP=74
+statement_wrapped() {
+    fold -s -w "$WRAP" "$STATEMENT" | sed 's/ *$//'
+}
+
 # header <spdx-id> <description line>...
 header() {
     local spdx="$1"; shift
@@ -98,7 +112,7 @@ header() {
 }
 
 build_cc0() {
-    cat "$STATEMENT"
+    statement_wrapped
     header "CC0-1.0" \
         "Creative Commons CC0 1.0 Universal Public Domain Dedication," \
         "reproduced verbatim below and also available in this project as" \
@@ -107,7 +121,7 @@ build_cc0() {
 }
 
 build_unlicense() {
-    cat "$STATEMENT"
+    statement_wrapped
     header "Unlicense" \
         "The Unlicense, reproduced verbatim below and also available in this" \
         "project as LICENSE.unlicense.txt. It must not be altered."
@@ -115,7 +129,7 @@ build_unlicense() {
 }
 
 build_either() {
-    cat "$STATEMENT"
+    statement_wrapped
     header "CC0-1.0 OR Unlicense" \
         "Two dedications are reproduced below. You may rely on either one, at" \
         "your option — whichever is effective in your jurisdiction and suited" \
