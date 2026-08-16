@@ -1,14 +1,15 @@
-# Internal working notes, drafts, and material not intended for the public repo.
-# Anything dropped under _generated/ stays out of git.
-_generated/
+# All local-only project material, under one umbrella (anchored so it can
+# never match a folder of the same name inside the tree). See PROJECT-TEMPLATE.md.
+/_local/
+
+# AI tooling state
 .omc
+.mcp.json
+.claude
 
 # Editor configs mm
 .nova
 .DS_Store
-_originals
-_resources
-_backup
 
 # Project notes (kept locally, not in repo)
 AGENTS.md
