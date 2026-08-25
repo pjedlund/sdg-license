@@ -1,6 +1,9 @@
 # Soli Deo Gloria — A Public Domain Dedication
 
-<img src="logo/SDG-logo.svg" width="100%" alt="Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo/SDG-logo-dark.svg">
+  <img src="logo/SDG-logo.svg" width="100%" alt="Calligraphic monogram of the letters S, D, and G, intertwined with ornate flourishes and a sweeping underline.">
+</picture>
 
 > **Version 2.0.0-beta.4.** The dedication statement is under review and may still change before 2.0.0 is released. If you need text that will not move under you, adopt the 1.0.0 text from the [`v1.0.0`](https://github.com/pjedlund/soli-deo-gloria-dedication/tree/v1.0.0) tag and switch once 2.0.0 ships.
 
